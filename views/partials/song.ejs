@@ -1,0 +1,3 @@
+<% top50.forEach(song => { %>
+    <li><%- `<div class='container'><span class='rank'>#${song.rank}</span><span class='streams'>(${song.streams}M streams)</span> <span class='stitle'>${song.title}</span> <span class='artist'>by ${song.artist}</span><span class='date'>published: ${song.publicationDate}</span></div>` %></li>
+<% }) %>

@@ -1,0 +1,9 @@
+<%- include( '../partials/header') %>
+<div class='book'>
+    <span class="singletitle"><%= book.title %></span>
+    <span class='singleartist'>by <%= book.author %></span>
+    <img class='img' src='<%= book.imgUrl %>'>
+    <p><%= book.description %></p>
+    <p><a href='/books/<%=book.type%>'>(<%= book.type %>)</a></p>
+</div>
+<%- include( '../partials/footer') %>

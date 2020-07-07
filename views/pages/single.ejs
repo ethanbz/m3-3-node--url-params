@@ -1,0 +1,9 @@
+<%- include( '../partials/header') %>
+<div class='single'>
+    <span class="singletitle"><%= song.title %></span>
+    <span class='singleartist'><%= song.artist %></span>
+    <span class='img'>585</span>
+    <div class='left' onclick='location.href=`/top50/song/<%=prev%>`;' style='cursor:pointer'><</div>
+<div class='right' onclick='location.href=`/top50/song/<%=next%>`' style='cursor:pointer'>></div>
+</div>
+<%- include( '../partials/footer') %>

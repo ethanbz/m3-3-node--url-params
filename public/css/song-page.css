@@ -1,1 +1,59 @@
 /* song page css */
+
+.single {
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 0 35px -20px;
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    top: 150px;
+}
+
+.singletitle {
+    font-size: 24px;
+    width: 100%-20px;
+    display: block;
+    margin: 20px 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.singleartist {
+    width: 100%-20px;
+    display: block;
+    text-align: center;
+    color: rgb(150, 150, 150);
+}
+
+.img {
+    display: block;
+    color: rgb(192, 192, 192);
+    text-align: center;
+    font-size: 200px;
+}
+
+.left, .right {
+    height: 60px;
+    width: 60px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px;
+    position: relative;
+    top: -250px;
+    color: rgb(192, 192, 192);
+}
+
+.left {
+    left: -80px;
+}
+
+.right {
+    right: -420px;
+    top: -310px;
+}

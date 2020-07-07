@@ -1,0 +1,28 @@
+.book {
+    height: 700px;
+    width: 400px;
+    box-shadow: 0 -10px 20px -20px;
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    top: 150px;
+}
+
+.booktitle {
+    font-size: 34px;
+}
+.author {
+    display: block;
+}
+
+.img {
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    height: 250px;
+    
+}
+
+.book > p {
+    margin: 20px;
+}

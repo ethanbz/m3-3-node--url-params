@@ -1,1 +1,37 @@
 /* song css */
+.container {
+    width: 100vw-20px;
+    height: 130px;
+    border-bottom: 1px solid black;
+    margin: 20px;
+}
+
+.rank {
+    font-size: 68px;
+}
+.streams {
+    font-size: 12px;
+    left: 20px;
+    margin-top: 88px;
+    position: absolute;
+}
+
+.artist {
+    position: absolute;
+    left: 150px;
+    margin-top: 60px;
+}
+
+.stitle {
+    position: absolute;
+    left: 150px;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.date {
+    position: absolute;
+    right: 20px;
+    margin-top: 100px;
+}

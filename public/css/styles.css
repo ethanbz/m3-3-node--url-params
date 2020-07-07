@@ -2,6 +2,7 @@
 @import 'reset.css';
 @import 'typography.css';
 @import 'song.css';
+@import 'book.css';
 @import 'song-page.css';
 
 body {
